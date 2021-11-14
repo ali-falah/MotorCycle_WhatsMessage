@@ -1,0 +1,84 @@
+.alert-not{
+    
+    right: -100%;
+    top: 60px;
+    width: 100%;
+    /* margin: auto; */
+   
+    /* background-color: rgba(29, 26, 2,1) !important; */
+    transition: 0.3s linear;
+    opacity: 0;
+    height: fit-content;
+    animation: MotionAlert 0.8s -0.1s  linear both ;
+    border: none;
+    border-radius: 2px;
+    font-size: 17px;
+}
+
+
+
+
+
+@keyframes MotionAlert {
+    from {
+        
+        right: -100%;
+        opacity: 0;
+    }
+
+    to{
+        
+        opacity: 1;
+        right:  0%;
+    }
+}
+
+
+
+
+.client-card{
+    width: 60vh;
+    box-shadow: inset 0 0 1.5px #000000;
+    box-shadow:  5px 5px -10px rgba(grey, grey, grey, 0.9);
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(73, 82, 92);
+    
+}
+
+.client-card p{
+    font-size: 20px ;
+}
+
+input{
+    border: none !important;
+    border-radius: 0% !important;
+    border-bottom: 1.8px solid  rgb(73, 82, 92) !important;
+}
+
+.btn-create{
+    border-radius:1% !important;
+    background-color: rgb(73, 82, 92) !important;
+    color: rgb(243, 233, 213);
+}
+
+.btn-create:hover{
+    transform: scale(1.02);
+    transition: 0.3s ease-in-out;
+}
+
+.tarsh-icon-btn{
+    cursor: pointer;
+    font-size: 33px !important;
+    transition: 0.12s ease-in-out;
+}
+
+.tarsh-icon-btn:hover{
+transform: scale(1.11);
+}
+
+.update-comp{
+    transform: translateX(180%);
+    transition: 0.5s linear;
+}
+
